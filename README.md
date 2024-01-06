@@ -45,7 +45,7 @@ Descripción del dataset utilizando Python:
 * La columna “id_partido” posee valores nulos.
 
 
-Transformaciones
+Transformaciones:
 * Eliminar "id_partido”: Es una columna que hace referencia a “nombre_partido”. Se considera redundante y además posee valores nulos.
 * Transformar la columna "porcentaje" a float: El dataset tiene el punto decimal con “,” y Python no interpreta esa columna como float. Se deberá reemplazar la coma por el punto y cambiar el tipo de dato.
 * Unificar valores de la columna "resultado". Existen valores de la columna “resultado” que se encuentran en mayúscula y otros en minúscula (Ejemplo: ‘avanzado’ y ‘Avanzado’).
